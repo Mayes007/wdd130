@@ -1,0 +1,10 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}

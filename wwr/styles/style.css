@@ -13,8 +13,8 @@ header{
 
 nav a{
     color: #1EA896;
-    text-align: center;
-    text-decoration: none;
+    text-align: center
+
 }
 
 nav a:hover{
@@ -28,8 +28,9 @@ nav a:hover{
     text-decoration: none;
 }
 #hero{
-    display: flex;
-    justify-content: space-between
+    
+text-align: center;
+justify-content: space-between
 
 }
 #hero.msg{

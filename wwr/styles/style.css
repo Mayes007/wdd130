@@ -1,8 +1,81 @@
-<body>
-<div id="::content 
-<header>"
-...
-</footer>
-</div>
-</body
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
+nav a{ 
+    text-align: center;
+    color: #1EA896;
+    text-decoration: none;
+}
+#hero-msg h1,
+#hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+
+body{
+    background-color: #1ea896 ;
+}
+header{
+    background-color:#1EA896 ;
+}
+nav a:hover{
+    background-color: black;
+}
+.book, .join{
+    background-color:#1EA896 ;
+    color: #8af3ff;
+}
+.home-title{
+    background-color: #1EA896;
+    color: #8af3ff;
+}
+h4{
+    background-color: #1EA896;
+    color: #8af3ff;
+}
+
+.book.hover, .join.hover{
+    background-color:#1EA896 ;
+    color: #8af3ff;
+}
+#background{
+    background-color:white ;
+}
+.msg{
+    background: color #1EA896; ;
+}
+.msg h2{
+    background-color: #1EA896;
+    color: #8af3ff;
+}
+.msg p{
+    background-color: #1EA896;
+    color: #8af3ff;
+}
+footer{
+    background-color: #1EA896;
+    color: #8af3ff;
+}
+   footer a:hover{
+    background-color: #1EA896;
+    color: #8af3ff
+   }
+   footer p{
+    font-size: 1.2em;
+   }
+footer p.a:hover{
+    text-decoration: underline;
+}
+   .icon{
+    width:100%
+   }

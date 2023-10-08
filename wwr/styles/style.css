@@ -1,7 +1,6 @@
 body{
     width: 1600px
-    background-color: #1EA896 ;
-    margin:0 auto;
+    background-color #1EA896 ;
     text-align:center 
     
 }
@@ -31,8 +30,7 @@ nav a:hover{
 #hero{
     display: flex;
     justify-content: space-between
-    align-items:center;
-    padding: ;
+
 }
 #hero.msg{
     text-align: center

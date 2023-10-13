@@ -21,7 +21,7 @@ header {
 nav a {
     margin-left: 20px;
     text-decoration: none;
-    color: #333;
+    color: #fbfafa;
 }
 
 /* Styling hero section */
@@ -88,7 +88,7 @@ nav a {
 
 /* Styling footer */
 footer {
-    background-color: #333;
+    background-color: #5393cb;
     color: white;
     padding: 20px;
     text-align: center;

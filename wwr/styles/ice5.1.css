@@ -1,0 +1,5 @@
+.styled-image {
+    width: 10px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid black; /* Add a border */
+}

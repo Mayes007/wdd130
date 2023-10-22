@@ -159,11 +159,7 @@ grid-column-gap: 20px; /* Add some gap between columns */
   height: 100px; 
   background-color: green; 
   float: left; 
-}
-
-
-} 
-.yellow5 {
+} .yellow5 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
@@ -176,7 +172,6 @@ grid-column-gap: 20px; /* Add some gap between columns */
   background-color: blue; 
   grid-column: 2;
 }
-} 
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
@@ -184,34 +179,39 @@ grid-column-gap: 20px; /* Add some gap between columns */
   grid-template-columns: 100px 100px 100px 100px; /* Create four columns */
   grid-template-rows: 100px 100px; /* Create two rows */
   grid-gap: 10px; /* Add some gap between rows and columns */
+
 }
 .red6 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  grid-column: 1;
-  grid-row: 1;
-} 
+  grid-column: 1 / 3; /* Place this box in columns 1 and 2 */
+  grid-row: 1 / 2; /* Place this box in row 1 */
+  z-index: 2; /* Set a higher z-index to control the layering */
+}
 .green6 {
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  grid-column: 2;
-  grid-row: 1;
-} 
+  grid-column:grid-column: 2 / 4; /* Place this box in columns 2 and 3 */
+  grid-row: 2 / 3; /* Place this box in row 2 */
+  z-index: 1; /* Set a lower z-index to control the layering */
+}
 .yellow6 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  grid-column: 3;
-  grid-row: 1;
+  grid-column: 1 / 3; /* Place this box in columns 1 and 2 */
+  grid-row: 2 / 3; /* Place this box in row 2 */
+  z-index: 1; /* Set a lower z-index to control the layering */
 } 
 .blue6 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
-  grid-column: 4;
-  grid-row: 1;
+  grid-column: 3 / 5; /* Place this box in columns 3 and 4 */
+  grid-row: 1 / 2; /* Place this box in row 1 */
+  z-index: 2; /* Set a higher z-index to control the layering */
 } 
 
 

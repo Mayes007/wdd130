@@ -37,41 +37,46 @@
   /* This is the parent of the activity 2 boxes. */
  display: grid;
  grid-template-columns: 50px 50px 50px 50px 50px;
- grid-gap: 0px;
+ grid-gap: 10px;
  position: relative; 
 }
 .red2 { 
   width: 50px; 
   height: 50px; 
- position: absolute;
+ grid-column: 1/span 2;
+ grid-row:1 span 2;
   background-color: red;
-  top: 0;
-  left: 0;
+z-index: 1;
  
 } 
 .green2 { 
   width: 50x; 
   height: 50px; 
+  grid-column: 3;
+  grid-row: 1;
   background-color: green; 
-  top: 20px;
-  left: 20px;
+  z-index: 1;
+  
  
 } 
 .yellow2 {
   width: 50px; 
   height: 50px; 
+  grid-column: 2 span 2;
+  grid-row: 2/span 2;
   background-color: gold; 
-  top: 40px;
-  left: 40px;
+ z-index: 1;
 
 } 
 .blue2 {
 
   width: 50px; 
   height: 50px; 
+  grid-column: 4/ span 2;
+  grid-row: 3/ span 2;
   background-color: blue; 
-  top: 60px;
-  left: 60px;
+  z-index: 1;
+  
  
 } 
 /* Activity 3 styles */ 

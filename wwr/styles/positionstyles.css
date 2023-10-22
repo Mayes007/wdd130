@@ -42,55 +42,54 @@
 .red2 { 
   width: 50px; 
   height: 50px; 
- grid-column: 1/span 2;
- grid-row:1 span 2;
   background-color: red;
-z-index: 1;
- 
+  margin-top: -20px;
+  margin-left: 20px;
 } 
 .green2 { 
   width: 50x; 
   height: 50px; 
-  grid-column: 3;
-  grid-row: 1;
   background-color: green; 
-  z-index: 1;
-  
+  margin-top: -20px;
+  margin-left: 20px;
  
 } 
 .yellow2 {
   width: 50px; 
   height: 50px; 
-  grid-column: 2 span 2;
-  grid-row: 2/span 2;
   background-color: gold; 
- z-index: 1;
-
+  margin-top: -20px;
+  margin-left: 20px;
 } 
 .blue2 {
 
   width: 50px; 
   height: 50px; 
-  grid-column: 4/ span 2;
-  grid-row: 3/ span 2;
   background-color: blue; 
-  z-index: 1;
+  margin-top: -20px;
+  margin-left: 20px;
+
   
  
 } 
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+display: grid;
+grid-template-columns: 100px 100px; /* Create two columns */
+grid-column-gap: 20px; /* Add some gap between columns */
 }
 .red3 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1; 
 } 
 .green3 {
   width: 100px; 
   height: 100px; 
   background-color: green;
+  grid-column: 2; 
 } 
 .yellow3 {
   width: 100px; 
@@ -106,77 +105,113 @@ z-index: 1;
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
+  isplay: grid;
+  grid-template-columns: 100px 100px; 
+  grid-template-rows: 100px 100px; 
+  grid-gap: 10px; 
 }
 .red4 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1;
+  grid-row: 1;
 } 
 .green4 {
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-column: 2;
+  grid-row: 1;
 } 
 .yellow4 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 1;
+  grid-row: 2;
 } 
 .blue4 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 2;
+  grid-row: 2;
 } 
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
+  display: grid;
+  grid-template-columns: 100px 100px; 
+  grid-template-rows: 100px 100px; 
+  grid-gap: 10px; 
 }
 .red5 { 
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  float: left; 
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
 } 
 .green5 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  float: left; 
+}
+
 
 } 
 .yellow5 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 2;
 
 } 
 .blue5 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 2;
+}
 } 
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px; /* Create four columns */
+  grid-template-rows: 100px 100px; /* Create two rows */
+  grid-gap: 10px; /* Add some gap between rows and columns */
 }
 .red6 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1;
+  grid-row: 1;
 } 
 .green6 {
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-column: 2;
+  grid-row: 1;
 } 
 .yellow6 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 3;
+  grid-row: 1;
 } 
 .blue6 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 4;
+  grid-row: 1;
 } 
 
 

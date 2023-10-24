@@ -35,42 +35,43 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
- display: grid;
- grid-template-columns:50px 50px 50px 50px 50px
- 10px;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-gap: 10px; 
+  margin-top: 20px;
+}
+
+{grid-template-areas:
+    "red2 . . . green2"
+    "red2 . yellow2 . green2"
+    ". . yellow2 . ."
+    ". . . . blue2";
 }
 .red2 { 
   width: 50px; 
   height: 50px; 
   background-color: red;
-  margin-top: -20px;
-  margin-left: 20px;
+ grid-area: red;
 } 
 .green2 { 
   width: 50px; 
   height: 50px; 
   background-color: green; 
-  margin-top: -20px;
-  margin-left: 20px;
+ grid-area: green;
  
 } 
 .yellow2 {
   width: 50px; 
   height: 50px; 
   background-color: gold; 
-  margin-top: -20px;
-  margin-left: 20px;
+ grid-area: gold;
 } 
 .blue2 {
 
   width: 50px; 
   height: 50px; 
   background-color: blue; 
-  margin-top: -20px;
-  margin-left: 20px;
-
-  
- 
+ grid-area: blue;
 } 
 /* Activity 3 styles */ 
 .content3 {

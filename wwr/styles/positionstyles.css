@@ -37,7 +37,7 @@
   /* This is the parent of the activity 2 boxes. */
  display: grid;
  grid-template-columns:50px 50px 50px 50px 50px
- gap: 10px;
+ 10px;
 }
 .red2 { 
   width: 50px; 
@@ -47,7 +47,7 @@
   margin-left: 20px;
 } 
 .green2 { 
-  width: 50x; 
+  width: 50px; 
   height: 50px; 
   background-color: green; 
   margin-top: -20px;

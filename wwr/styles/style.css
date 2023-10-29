@@ -162,7 +162,7 @@ nav a {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #f0f0f0;
     justify-content: center;
 }
 .rivers-card{
@@ -180,17 +180,18 @@ nav a {
 #background{
     grid-column: 1/11;
     grid-row: 5/8;
+    
 }
 .msg {
     text-align: center;
     margin-top: 20px;
     grid-column: 6/10;
     grid-row: 6/7;
-    background: color #6f7364;
+    background: color #ffffff;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
-    
     margin-bottom: 10px;
+    justify-items: left;
 }
 
 .msg h2 {
@@ -207,7 +208,7 @@ nav a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #6f7364;
-    color: #333;
+    color: #2e9ca4;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -269,7 +270,9 @@ footer {
         margin: 50px auto;
         width: 60%;
     }
-
+.book{
+    background-color: #6f7364;
+}
     #background {
         display: none;
     }

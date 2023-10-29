@@ -104,8 +104,9 @@ nav a {
     display: inline-block;
     margin: 0 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #6f7364;
     border-radius: 10px;
+    justify-items: center;
 }
 
 .card-img {
@@ -133,6 +134,7 @@ nav a {
     height: auto;
     margin-top: 20px;
     box-shadow: 5px 5px 10px #6f7364;
+    justify-content: center;
 }
 .rivers-card{
     grid-column: 2/4;
@@ -172,7 +174,7 @@ nav a {
 .join {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f0f0f0;
+    background-color: #6f7364;
     color: #333;
     text-decoration: none;
     font-weight: bold;
@@ -183,9 +185,9 @@ nav a {
 /* Style the footer */
 footer {
     background-color: #6f7364;
-    color: #fff;
     text-align: center;
     padding: 25px 50px;
+    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -228,6 +230,8 @@ footer {
         font-size: 25px;
         color: #6f7364;
     }
+    #text {
+        background-color:#6f7364;}
 
     .rivers-card, .camping-card, .rapids-card {
         margin: 50px auto;

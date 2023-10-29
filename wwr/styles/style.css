@@ -24,17 +24,20 @@ header {
 .logo {
     max-width: 100%;
     height: auto;
+    width: 150px;
 }
 #logo_link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    text-decoration: none;
 }
 
 nav {
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
 }
 
 nav a {
@@ -64,6 +67,9 @@ nav a {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.5s);
+    padding: 20px;
+    border-radius: 5px;
 }
 #hero-msg h4{
     color: white;
@@ -89,6 +95,16 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    margin-top: 20px;
+}
+.book{
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase; 
 }
 
 /* Style the main content area */
@@ -97,16 +113,24 @@ nav a {
     padding: 40px 0;
     display: grid;
     grid-template-columns:repeat(10,1fr) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
 }
 
 /* Style the cards */
 .rivers-card, .camping-card, .rapids-card {
     display: inline-block;
-    margin: 0 20px;
+    margin:  20px;
     padding: 20px;
     background-color: #6f7364;
-    border-radius: 10px;
+    border-radius: 5px;
     justify-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px; rgba(0,0,0,0.2);
+
 }
 
 .card-img {
@@ -126,6 +150,8 @@ nav a {
 .icon {
     max-width: 60px;
     height: auto;
+    width: 40px;
+    height: 40px;
 }
 
 /* Style the "More Than Just The Thrill" section */
@@ -153,17 +179,20 @@ nav a {
     grid-row: 5/8;
 }
 .msg {
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
     grid-column: 6/10;
     grid-row: 6/7;
     background: color #6f7364;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
+    
+    margin-bottom: 10px;
 }
 
 .msg h2 {
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .msg p {
@@ -227,7 +256,7 @@ footer {
     }
 
     .home-title {
-        font-size: 25px;
+        font-size: 35px;
         color: #6f7364;
     }
     #text {

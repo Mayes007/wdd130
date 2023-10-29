@@ -98,7 +98,7 @@ nav a {
     margin-top: 20px;
 }
 .book{
-    background-color: #f00;
+    background-color: rgb(237, 243, 243);
     color: #3467b4;
     padding: 10px 20px;
     text-decoration: none;
@@ -208,7 +208,7 @@ nav a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #6f7364;
-    color: #2e9ca4;
+    color: #f6f8f8;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -264,7 +264,7 @@ footer {
         color: #6f7364;
     }
     #text {
-        background-color:#6f7364;}
+        background-color:#f9fbf3;}
 
     .rivers-card, .camping-card, .rapids-card {
         margin: 50px auto;

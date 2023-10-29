@@ -13,8 +13,8 @@ body {
 
 /* Style the header with the logo and navigation */
 header {
-    background-color: #6f7364;
-    color: #79a08f;
+    background-color: #576660;
+    color: #fff ;
     text-align: center;
     padding: 10px 0;
     display: grid;
@@ -170,7 +170,7 @@ nav a {
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
-    background-color: #6f7364;
+    background-color: #f9fbf3;
 }
 .camping-card{
     grid-column: 8/10;

@@ -41,7 +41,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #4f5c51;
     text-decoration: none;
     margin: 10px;
 }
@@ -76,7 +76,7 @@ nav a {
 }
 #hero h1 {
     font-size: 36px;
-    color: white;
+    color: rgb(15, 15, 15);
 }
 
 #hero h4 {

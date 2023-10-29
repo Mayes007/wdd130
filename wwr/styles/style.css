@@ -112,12 +112,12 @@ nav a {
 /* Style the main content area */
 .home-grid {
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
     display: grid;
     grid-template-columns:repeat(10,1fr) ;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-around;
     margin: 20px;
 }
 

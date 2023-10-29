@@ -90,8 +90,8 @@ nav a {
 .button-box a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #223542;
+    color: #f9f4f4;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -139,6 +139,7 @@ nav a {
     border: 10px solid #d9c2a3;
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px #6f7364;
+    color: white;
 }
 .card-img:hover{
     opacity:0.6;
@@ -146,6 +147,7 @@ nav a {
 }
 .card-img,.mountains{
     width: 100%;
+    color: white;
 }
 .icon {
     max-width: 60px;

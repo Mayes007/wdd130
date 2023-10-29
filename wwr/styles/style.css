@@ -30,6 +30,7 @@ header {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    color: #6f7364;
   
 }
 
@@ -125,7 +126,7 @@ nav a {
     display: inline-block;
     margin:  20px;
     padding: 20px;
-    background-color: #2ba187;
+    background-color: #ffffff;
     border-radius: 5px;
     justify-items: center;
     text-align: center;
@@ -137,7 +138,7 @@ nav a {
 .card-img {
     max-width: 100%;
     height: auto;
-    border: 10px solid #d9c2a3;
+    border: 10px solid #6f7364;
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px #6f7364;
     color: white;
@@ -169,6 +170,7 @@ nav a {
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
+    background-color: #6f7364;
 }
 .camping-card{
     grid-column: 8/10;
@@ -261,8 +263,8 @@ footer {
     }
 
     .home-title {
-        font-size: 35px;
-        color: #39577c;
+        font-size: 25px;
+        color: #6f7364;
     }
     #text {
         background-color:#f9fbf3;}
@@ -271,9 +273,7 @@ footer {
         margin: 50px auto;
         width: 60%;
     }
-.book{
-    background-color: #ffffff;
-}
+
     #background {
         display: none;
     }

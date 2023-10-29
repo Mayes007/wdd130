@@ -117,7 +117,7 @@ nav a {
     grid-template-columns:repeat(10,1fr) ;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px;
 }
 

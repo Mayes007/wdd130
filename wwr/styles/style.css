@@ -7,7 +7,7 @@ body, h1, h2, p, ul, li {
 /* Set a background color and text color for the whole page */
 body {
     background-color: #f0f0f0;
-    color: #f9f6f6;
+    color: #3f4442;
     font-family: Arial, sans-serif;
 }
 
@@ -125,7 +125,7 @@ nav a {
     display: inline-block;
     margin:  20px;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #2ba187;
     border-radius: 5px;
     justify-items: center;
     text-align: center;

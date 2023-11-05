@@ -145,7 +145,7 @@ nav a:hover {
   grid-area: home; 
   background-color: #ccc;
   line-height: 1em;
-  text-align: center;
+  text-align: start;
   
   
 .sm-page2 {

@@ -150,26 +150,26 @@ nav a:hover {
 .sm-page2 {
   grid-area: page2;
   background-color: #ccc;
-  line-height: 2em;
+  line-height: 1em;
   grid-row: top ;
 
 }
 .sm-page3 {
   grid-area: page3;
   background-color: #ccc;
-  line-height: 3em;
+  line-height: 1em;
   grid-row:top left ;
 }
 .sm-page4{
   grid-area: page4;
   background-color: #ccc;
-  line-height:bottom left 4em;
+  line-height:bottom left 1em;
   grid-row:shoes left
 }
 .sm-page5{
   grid-area: page5;
   background-color: #ccc;
-  line-height: 5em;
+  line-height: 1em;
   grid-row: right;
 }
 .top {

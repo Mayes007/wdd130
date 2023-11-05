@@ -133,7 +133,7 @@ nav a:hover {
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas: ". . home home . ."
     ". . . top . ."
-    ". left  right ."
+    ". left left right right ."
     "page2 page2 . . page3 page3";
 }
 .sitemap > div {
@@ -142,35 +142,29 @@ nav a:hover {
 
 }
 .sm-home {
-  grid-area: home; 
+  grid-area: home;
   background-color: #ccc;
-  line-height: 1em;
-  text-align: start;
-  
-  
+  line-height: 3em;
+}
 .sm-page2 {
   grid-area: page2;
   background-color: #ccc;
-  line-height: 1em;
-  grid-row: top;
+  line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
   background-color: #ccc;
-  line-height: 1em;
-  grid-row:top left;
+  line-height: 3em;
 }
 .sm-page4{
   grid-area: page4;
   background-color: #ccc;
-  line-height: 1em;
-  grid-row: left
+  line-height: 3em;
 }
 .sm-page5{
   grid-area: page5;
   background-color: #ccc;
-  line-height: 1em;
-  grid-row: right;
+  line-height: 3em;
 }
 .top {
   grid-area: top;

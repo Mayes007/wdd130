@@ -143,32 +143,31 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home; 
-  background-color: #ccc;
+  background-color: #cccccc;
   line-height: 1em;
   
   
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: #cccccc;
   line-height: 1em;
-  grid-row: top ;
-
+  grid-row: top;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color: #cccccc;
   line-height: 1em;
-  grid-row:top left ;
+  grid-row:top left;
 }
 .sm-page4{
   grid-area: page4;
-  background-color: #ccc;
+  background-color: #cccccc;
   line-height:bottom left 1em;
-  grid-row:shoes left
+  grid-row:shoe left
 }
 .sm-page5{
   grid-area: page5;
-  background-color: #ccc;
+  background-color: #cccccc;
   line-height: 1em;
   grid-row: right;
 }

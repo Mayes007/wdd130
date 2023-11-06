@@ -148,9 +148,10 @@ nav a:hover {
 .sm-page2 {
   grid-area: page2;
   background-color: #ccc;
-  line-height: 3em;
+  line-height: 4em;
   grid-row: left;
 }
+
 .sm-page3 {
   grid-area: page3;
   background-color: #ccc;

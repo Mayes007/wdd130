@@ -138,31 +138,38 @@ nav a:hover {
 }
 .sitemap > div {
   text-align: center;
+
 }
 .sm-home {
   grid-area: home;
   background-color: #ccc;
   line-height: 3em;
-  grid-column: top;
 }
 .sm-page2 {
   grid-area: page2;
   background-color: #ccc;
-  line-height: 4em;
-  grid-row: left;
+  line-height: 3em;
+  grid-row: 1 right top;
+  
 }
-
 .sm-page3 {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
+  grid-area: 1 left top;
 }
 .sm-page4{
   grid-area: page4;
   background-color: #ccc;
   line-height: 3em;
+  grid-area: 1 right;
 }
-
+.sm-page5{
+  grid-area: page5;
+  background-color: #ccc;
+  line-height: 3em;
+  grid-area:  2 left ;
+}
 
 .top {
   grid-area: top;

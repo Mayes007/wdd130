@@ -138,12 +138,12 @@ nav a:hover {
 }
 .sitemap > div {
   text-align: center;
-grid-template-rows: center;
 }
 .sm-home {
   grid-area: home;
   background-color: #ccc;
   line-height: 3em;
+  grid-column: center;
 }
 .sm-page2 {
   grid-area: page2;

@@ -143,11 +143,13 @@ nav a:hover {
   grid-area: home;
   background-color: #ccc;
   line-height: 3em;
+  grid-column: top;
 }
 .sm-page2 {
   grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
+  grid-row: top;
 }
 .sm-page3 {
   grid-area: page3;
@@ -159,7 +161,11 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-
+.sm-page5{
+  grid-area: page5;
+  background-color: #ccc;
+  line-height: 3em;
+}
 
 .top {
   grid-area: top;

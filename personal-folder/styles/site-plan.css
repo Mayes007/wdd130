@@ -138,7 +138,7 @@ nav a:hover {
 }
 .sitemap > div {
   text-align: center;
-
+grid-template-rows: center;
 }
 .sm-home {
   grid-area: home;
@@ -156,7 +156,7 @@ nav a:hover {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
-  grid-area: 1 left top;
+  grid-area: 1 left ;
 }
 .sm-page4{
   grid-area: page4;

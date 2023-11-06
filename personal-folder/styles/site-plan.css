@@ -137,9 +137,7 @@ nav a:hover {
     "page2 page2 . . page3 page3";
 }
 .sitemap > div {
-
   text-align: center;
-
 }
 .sm-home {
   grid-area: home;

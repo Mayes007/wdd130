@@ -166,7 +166,7 @@ nav a:hover {
   grid-area: page5;
   background-color: #ccc;
   line-height: 3em;
-  grid-area: 1 left:
+  grid-area: 1 left;
 }
 
 .top {

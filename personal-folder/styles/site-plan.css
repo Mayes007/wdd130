@@ -193,25 +193,7 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-
-body{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
 .wireframe{
-  border: 2px solid #000;
-  padding: 20px;
-}
-.box{
-  width: 100px;
-  height: 100px;
-  background-color: #3498db;
-}
-p{
-  font-size: 14px;
+  height: 10;
+  width: 10;
 }

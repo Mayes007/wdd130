@@ -31,7 +31,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url('images/hero-bg.jpg') no-repeat center center;
+    background: url('hero.jpg') no-repeat center center;
     background-size: cover;
     padding: 50px;
     color: white;

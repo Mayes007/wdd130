@@ -235,12 +235,12 @@ footer {
     color: #fff;
     margin: 0 10px;
 }
-@media screen and (max-width: 900px) 
+@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
     }
-
+}
     nav, footer {
         flex-direction: column;
     }

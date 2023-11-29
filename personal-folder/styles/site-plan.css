@@ -194,3 +194,78 @@ nav a:hover {
   border-right: 1px solid;
 }
 
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f7f7f7; /* Change the color as needed */
+}
+
+/* Header styles */
+header {
+  background-color: #7df9ff;
+  color: #040720;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #040720;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+  color: #333; /* Change text color as needed */
+}
+
+/* Footer styles */
+footer {
+  background-color: #7df9ff;
+  color: #040720;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  margin: 0 5px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}

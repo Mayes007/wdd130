@@ -287,9 +287,8 @@ footer {
         margin-top: 25px;
     }
     .fun-facts{
-        background-color: #3467b4;
+        background-color: rgb(92, 168, 179);
         padding: 20px;
         margin:20px 0;
+        text-emphasis-color: #000000;
     }
-
-  

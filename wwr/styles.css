@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+
+User
+give me css for this !DOCTYPE html>
 <html lang="em">
 <head>
     <meta charset="UTF-8">
@@ -81,3 +84,146 @@
     </footer>
 </body>
 </html>
+ChatGPT
+Certainly! Below is a basic CSS structure that targets various elements in your HTML to style them:
+
+css
+Copy code
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Change the color as needed */
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Change the color as needed */
+    color: #fff; /* Change the color as needed */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px; /* Change the width as needed */
+}
+
+.menu a {
+    color: #fff; /* Change the color as needed */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Hero section styles */
+#hero {
+    position: relative;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#hero-img {
+    width: 100%;
+    max-width: 600px; /* Change the maximum width as needed */
+}
+
+#hero-msg {
+    margin-top: 20px;
+}
+
+.home-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.button-box {
+    margin-top: 20px;
+}
+
+.book {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Change the color as needed */
+    color: #fff; /* Change the color as needed */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.book:hover {
+    background-color: #555; /* Change the hover color as needed */
+}
+
+/* Main section styles */
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    max-width: 300px; /* Change the maximum width as needed */
+    border-radius: 5px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.msg {
+    text-align: center;
+    padding: 20px;
+}
+
+.msg h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.msg p {
+    margin-bottom: 20px;
+}
+
+.join {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Change the color as needed */
+    color: #fff; /* Change the color as needed */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.join:hover {
+    background-color: #555; /* Change the hover color as needed */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Change the color as needed */
+    color: #fff; /* Change the color as needed */
+    text-align: center;
+    padding: 20px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}

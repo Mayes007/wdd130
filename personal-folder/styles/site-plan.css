@@ -194,6 +194,4 @@ nav a:hover {
   border-right: 1px solid;
 }
 
-header, footer {
-  grid-column: 1 / 4;
-}
+

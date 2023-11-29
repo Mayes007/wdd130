@@ -28,6 +28,7 @@ Fonts are separated by a | */
 
 
 
+
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
@@ -75,7 +76,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #8a3535;
 }
 .colors td{
   width: 25%;

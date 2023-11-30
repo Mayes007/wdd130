@@ -33,7 +33,7 @@ Fonts are separated by a | */
 
 body {
   max-width: 1200px;
-  margin: 50 ;
+  margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;

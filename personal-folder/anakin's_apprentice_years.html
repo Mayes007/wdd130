@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <title>index.html</title>
     <link rel="stylesheet" type="text/css" href="styles/site-plan.css">
-    <!-- You can add more meta tags, links to CSS, or scripts here -->
     <style>
-        /* You can add CSS styles here or link to an external CSS file */
+        /* CSS styles */
+        /* ... Your existing CSS styles ... */
+
+        /* Two-column layout styles */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .column {
+            width: 45%;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .column img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0 auto;
@@ -29,14 +53,14 @@
             margin-bottom: 20px;
         }
 
-        
-        /* Add more styles for other elements as needed */
+        /* Additional styles as needed */
     </style>
 </head>
 <body>
     <header>
         <h1>How Anikan Skywalker is the Chosen One.</h1>
-        <h2>Anakin's Apprentice Years</h2>
+        <h2>Anikan Skywalker's Apprentice Years </h2>
+        
         <a id="logo_link" href="index.html">
             <img class="logo" src="image/Anakin Skywalker The Chosen One's Legacy.png" >
         </a>
@@ -51,13 +75,20 @@
     </header>
 
     <main class="content">
-        <img src="image/download (1).jpeg"  alt="First Image for page3">
-        <p> "Anikan's Apprentice Years," is dedicated to Anakin's apprenticeship, offering a detailed exploration of his training and growth as a Jedi. This phase of his life is pivotal in his journey towards becoming a legendary figure in the Star Wars saga. The page delves into the challenges, triumphs, and mentors that shaped Anakin's path, providing a comprehensive understanding of the training that would ultimately define his character. Accompanied by vivid images, it allows visitors to relive the training and trials Anakin faced, including his interactions with notable characters like Obi-Wan Kenobi and Yoda. This section immerses users in Anakin's evolving relationship with the Force and showcases the pivotal moments that paved the way for his destiny.</p>
-        <img src="image/94ab5762a4bad0a1e46f50b60b6c0a21.jpg" alt="Second Image for page 2">
+        <div class="container">
+            <div class="column">
+                <img src="image/download (1).jpeg" alt="First Image for page 2">
+                <p> "Anikan's Apprentice Years," is dedicated to Anakin's apprenticeship, offering a detailed exploration of his training and growth as a Jedi. This phase of his life is pivotal in his journey towards becoming a legendary figure in the Star Wars saga. The page delves into the challenges, triumphs, and mentors that shaped Anakin's path, providing a comprehensive understanding of the training that would ultimately define his character. Accompanied by vivid images, it allows visitors to relive the training and trials Anakin faced, including his interactions with notable characters like Obi-Wan Kenobi and Yoda. This section immerses users in Anakin's evolving relationship with the Force and showcases the pivotal moments that paved the way for his destiny.</p>
+            </div>
+            <div class="column">
+                <img src="image/images.jpeg" alt="Image for page 2">
+                <p>Anakin Skywalker was primarily trained by two Jedi during his time as an apprentice: Qui-Gon Jinn and Obi-Wan Kenobi. Qui-Gon Jinn discovered Anakin on Tatooine in "Star Wars: Episode I - The Phantom Menace." He recognized Anakin's exceptional potential in the Force and believed he could be the Chosen One who would bring balance to the Force. However, Qui-Gon was killed by Darth Maul before he could fully train Anakin. Following Qui-Gon's death, Obi-Wan Kenobi took on the responsibility of training Anakin. Initially hesitant due to the Jedi Council's concerns about Anakin's age and emotional attachments, Obi-Wan eventually became Anakin's Jedi Master and mentor. The two formed a close bond, and Obi-Wan played a significant role in shaping Anakin's Jedi training and worldview. Under Obi-Wan's guidance, Anakin learned various Jedi skills, lightsaber combat, and the ways of the Force. However, Anakin's struggles with his emotions, attachments, and conflicts ultimately led to his fall to the dark side, transitioning into Darth Vader under the influence of Darth Sidious (Emperor Palpatine).</p>
+            </div>
+        </div>
     </main>
-
+    
     <footer>
-        <p>Anakin Skywalker &copy; 2023- Samantha Mayes All rights reserved.</p>
+        <p>Anakin Skywalker&copy; 2023- Samantha Mayes All rights reserved.</p>
         <!-- You can add the link to the site plan or other footer content here -->
             <a href="site-plan.html">Site Plan</a>
             <a href="https://facebook.com" target="_blank">
@@ -69,6 +100,8 @@
             <a href="https://instagram.com" target="_blank">
                 <img src="image/instagram.png" alt="instagram icon">
     </footer>
-    </footer>
+</body>
+</html>
+
 </body>
 </html>

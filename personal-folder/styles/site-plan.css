@@ -204,6 +204,9 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+
+/* styles/site-plan.css */
+
 /* Resetting default browser styles */
 html, body {
   margin: 0;

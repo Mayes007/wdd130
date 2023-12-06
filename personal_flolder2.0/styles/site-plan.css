@@ -204,3 +204,88 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+/* styles/site-plan.css */
+
+/* Resetting default browser styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #7df9ff;
+  color: #040720;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  text-align: center;
+  margin-top: 10px;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #000;
+}
+
+nav a:hover {
+  color: #7df9ff;
+}
+
+/* Main content styles */
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.column {
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.column img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #7df9ff;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Social media icon styles */
+footer a {
+  margin: 0 5px;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}

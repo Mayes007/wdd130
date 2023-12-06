@@ -69,7 +69,95 @@ header {
   margin-bottom: 20px;
 }
 
+/* Apply a background color to the body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
 
+/* Center and limit the width of the content */
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style header */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+/* Style navigation */
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style main content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+/* Improve footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .column {
+    max-width: 100%;
+  }
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 

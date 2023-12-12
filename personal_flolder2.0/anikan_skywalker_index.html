@@ -12,24 +12,29 @@
         .container {
             display: flex;
             justify-content: center;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            margin-top: 20px;
+            align-items: center;
+            flex-direction: row; /* Adjusted to display columns side by side */
+            padding: 20px;
+            box-sizing: border-box;
+            flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
         }
-
         .column {
-            width: 45%;
+            width: calc(50% - 40px); /* Adjust column width based on margins and padding */
             margin: 10px;
-            padding: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
             background-color: #f9f9f9;
             border-radius: 5px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         }
 
         .column img {
+            .column img {
             max-width: 100%;
-            border-radius: 5px;
-            margin-bottom: 10px;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
         }
         body {
             font-family: Arial, sans-serif;

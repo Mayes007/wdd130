@@ -5,137 +5,43 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #28587b  ;
+  --primary-color: #28587b   ;
   --secondary-color: #0e7c7b ;
   --accent1-color: #53f4ff;
-  --accent2-color: 
+  --accent2-color:	#2E8B57 ;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "New Times Roman";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #28587b;  /* headlines on a white background */ 
   --headline-color-on-color: black; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #000; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --paragraph-background-color: #0e7c7b  ;
   --nav-link-color: #396E94;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
-/* styles/site-plan.css */
-
-/* Resetting default margin and padding */
-* {
-  margin: 0 ;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body styles */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f5f5f5;
-  margin: 0 ;
-  padding: 0;
-}
-
-/* Header styles */
-header {
-  background-color: #333;
-  color: white;
-  padding: 5px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-#logo_link {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.logo {
-  max-width: 500px;
-  height: auto;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Main content styles */
-.main {
-  padding: 20px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.column {
-  flex: 0 1 calc(50% - 20px);
-  margin-bottom: 20px;
-  background-color: white;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-
-.column img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
 /* Footer styles */
 footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-footer p {
-  margin-bottom: 10px;
-}
-
-footer a img {
-  width: 30px;
-  height: 30px;
-  margin: 0 auto;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between; /* Adjust alignment as needed */
-}
-
-.column {
-  width: 30%; /* Adjust width as needed */
-  padding: 20px;
-  box-sizing: border-box;
-  /* Other styling properties */
-}
+    background-color: #0e7c7b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+  }
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -185,7 +91,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #8a3535;
+  background-color: #999;
 }
 .colors td{
   width: 25%;
@@ -248,7 +154,9 @@ nav a:hover {
     "page2 page2 . . page3 page3";
 }
 .sitemap > div {
+
   text-align: center;
+
 }
 .sm-home {
   grid-area: home;
@@ -259,57 +167,26 @@ nav a:hover {
   grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
-  grid-row: 1 right;
 }
 .sm-page3 {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
-  grid-area: 1 left ;
-}
-.sm-page4{
-  grid-area: page4;
-  background-color: #ccc;
-  line-height: 3em;
-  grid-area: 1 right;
-}
-.sm-page5{
-  grid-area: page5;
-  background-color: #ccc;
-  line-height: 3em;
-  grid-area:  left;
 }
 
 .top {
   grid-area: top;
   border-left: 1px solid;
 }
-.left{
-  grid-area: left;
-  border-left: 1px solid;
-}
+
 .left {
   grid-area: left;
   border-top: 1px solid;
   border-left: 1px solid;
 }
+
 .right {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-}
-.bottom{
-  grid-area: bottom;
-  border-top: 1px solid;
-  border-right: 1px solid;
-}
-
-footer {
-  background-color:#7df9ff;
-  text-align: center;
-  padding: 50px 50px;
-  margin-top: 200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }

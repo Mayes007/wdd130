@@ -7,108 +7,100 @@
     <style>
         /* Additional CSS for layout purposes */
         body {
-    height: 100px;
-  width:100% ;
-    margin: 0 auto ;
-    padding: 0;
-    font-family: Arial, sans-serif;
- }
+            height: 100px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
 
         .container {
-  display: flex;
-}
+            display: flex;
+            justify-content: center;
+        }
 
-.column {
-  flex: 2;
-  padding: 40px;
-  border: 1px solid #ccc;
-  box-sizing: content-box;
-}
+        .column {
+            flex: 2;
+            padding: 40px;
+            border: 1px solid #ccc;
+            box-sizing: content-box;
+        }
 
-.column img {
-  max-width: 100%; /* Ensure images don't exceed their container */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Remove extra space below images */
-  margin-bottom: 10px; /* Add some space below the image */
-}
+        .column img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
 
-.column p {
-  margin: 0; /* Remove default margins for paragraphs */
-}
+        .column p {
+            margin: 0;
+        }
 
-        
-         header,
+        header,
         footer {
-        text-align: center;
-     
-}
-    nav a {
-    margin: 0 10px;
-}
-/* Media query for screens larger than 768px */
-@media screen and (min-width: 768px) {
-  .column {
-    flex: 1;
-    min-width: auto; /* Allow columns to take full width on larger screens */
-    margin: 5px; /* Add some spacing between columns */
-  }
-}
+            text-align: center;
+        }
 
-/* Adjustments for links in footer */
-    footer a {
-    display: inline-block;
-    margin: 0 5px;
-}
+        nav a {
+            margin: 0 10px;
+        }
 
+        /* Media query for screens larger than 768px */
+        @media screen and (min-width: 768px) {
+            .column {
+                flex: 1;
+                min-width: auto;
+                margin: 5px;
+            }
+        }
+
+        footer a {
+            display: inline-block;
+            margin: 0 5px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>How Anikan Skywalker is the Chosen One.</h1>
-        
+        <h1>How Anakin Skywalker is the Chosen One.</h1>
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/Anakin_Skywalker_The_Chosen_One's_Legacy.png" alt="Anakin_Skywalker-The_Chosen_One's_Legacy">
-
-            <nav>
-                <a href="anakin_skywalker_index.html">Home </a>
-                <a href="anakin's_younger_years.html">Page 2 </a>
-                <a href="anakin's_apprentice_years.html">Page 3 </a>
-                <a href="anakin_turns_to_the_dark_side.html">Page 4 </a> 
-                <a href="quotes_of_anakin_skywalker_and_darth_vader.html">Page 5 </a>
-            </nav>
+        </a>
+        <nav>
+            <a href="anakin_skywalker_index.html">Home</a>
+            <a href="anakin's_younger_years.html">Page 2</a>
+            <a href="anakin's_apprentice_years.html">Page 3</a>
+            <a href="anakin_turns_to_the_dark_side.html">Page 4</a>
+            <a href="quotes_of_anakin_skywalker_and_darth_vader.html">Page 5</a>
+        </nav>
     </header>
     <main>
-        <main class="content">
-            <div class="container">
-                <div class="column">
-                    <img src="images/download.jpeg" alt="First Image for home page">
-                    <p> The Home page of this website serves as the gateway to an extensive exploration of Anikan Skywalker's life. It spans his entire timeline, from a young, innocent child to his eventual transformation into the formidable Darth Vader. This page introduces the website overarching narrative, offering a tantalizing preview of the journey ahead. It promises a comprehensive dive into the life of one of Star Wars' most iconic characters. Users can expect to uncover the pivotal moments that define Anakin's path, both visually and through engaging content. This page is adorned with two intriguing images, setting the tone for the captivating story that follows.</p>
-                </div>
-                <div class="column">
-                    <img src="images/2dec3a78a0a562965cccbd8e3fc6f53a.jpg" alt="Second Image for home page">
-                    <p>Anakin Skywalker's status as the Chosen One in the Star Wars universe is a key prophecy that plays a significant role in his character's arc. The prophecy, introduced in the prequel trilogy of Star Wars, foretells the arrival of a being with the potential to bring balance to the Force.
-    
-                        The prophecy is described as follows: "A Chosen One will come, born of no father, and through him will ultimate balance in the Force be restored."</p>
-                </div>
+        <div class="container">
+            <div class="column">
+                <img src="images/download.jpeg" alt="First Image for home page">
+                <p> The Home page of this website serves as the gateway to an extensive exploration of Anakin Skywalker's life. It spans his entire timeline, from a young, innocent child to his eventual transformation into the formidable Darth Vader. This page introduces the website overarching narrative, offering a tantalizing preview of the journey ahead. It promises a comprehensive dive into the life of one of Star Wars' most iconic characters. Users can expect to uncover the pivotal moments that define Anakin's path, both visually and through engaging content. This page is adorned with two intriguing images, setting the tone for the captivating story that follows.</p>
             </div>
-        </main>
-        
-        <footer>
-            <p>Anakin Skywalker&copy; 2023- Samantha Mayes All rights reserved.</p>
-            <!-- You can add the link to the site plan or other footer content here -->
-                <a href="site-plan.html">Site Plan</a>
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="facebook icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-        </footer>
-    </body>
-    </html>
-    
-    </body>
-    </html>
-    
+            <div class="column">
+                <img src="images/2dec3a78a0a562965cccbd8e3fc6f53a.jpg" alt="Second Image for home page">
+                <p>Anakin Skywalker's status as the Chosen One in the Star Wars universe is a key prophecy that plays a significant role in his character's arc. The prophecy, introduced in the prequel trilogy of Star Wars, foretells the arrival of a being with the potential to bring balance to the Force. The prophecy is described as follows: "A Chosen One will come, born of no father, and through him will ultimate balance in the Force be restored."</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Anakin Skywalker&copy; 2023- Samantha Mayes All rights reserved.</p>
+        <!-- You can add the link to the site plan or other footer content here -->
+        <a href="site-plan.html">Site Plan</a>
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="facebook icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </footer>
+</body>
+</html>
